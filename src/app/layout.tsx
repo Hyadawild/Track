@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "MiKaPo - MMD Motion Capture",
+  title: "Hyatrack - MMD Motion Capture",
   description: "Real-time motion capture for MMD models.",
   keywords: ["MMD", "MikuMikuDance", "motion capture", "mediapipe", "landmarks", "pose estimation"],
 }

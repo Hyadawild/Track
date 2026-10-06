@@ -28,13 +28,13 @@ import { FaceSolverResult } from "@/lib/face-blendshape-solver"
 import { ASSETS } from "@/lib/assets"
 
 /** Stable engine key for the bundled default PMX — folder uploads swap via removeModel + new id. */
-const DEFAULT_MODEL_KEY = "mikapo"
+const DEFAULT_MODEL_KEY = "Suisui"
 
 // Whether this build ships the demo model (absent = on). Set
 // NEXT_PUBLIC_USE_DEFAULT_ASSETS=false to boot empty; parsed leniently, same
 // convention as reze-design. Read at build time (NEXT_PUBLIC_ inlines it).
 const NO = ["false", "0", "off", "no"]
-const USE_DEFAULT_ASSETS = !NO.includes((process.env.NEXT_PUBLIC_USE_DEFAULT_ASSETS ?? "").trim().toLowerCase())
+const USE_DEFAULT_ASSETS = !NO.includes((process.env.NEXT_PUBLIC_USE_DEFAULT_ASSETS ?? "false").trim().toLowerCase())
 
 /** Style-group hints for the bundled 塞尔凯特 PMX (exact material names). Fed to
  *  `engine.autoStyleGroups` as overrides: these win, then the engine's built-in
