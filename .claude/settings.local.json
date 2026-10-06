@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npx next *)",
+      "Bash(ls *)",
+      "Bash(node *)",
+      "Bash(gh repo *)",
+      "Bash(git ls-tree *)",
+      "Bash(git checkout *)"
+    ]
+  }
+}
