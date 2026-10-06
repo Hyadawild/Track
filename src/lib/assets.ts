@@ -12,4 +12,4 @@
  * spelled NFC, the way git stores them and source code writes them — macOS
  * hands filenames back decomposed, and an R2 key is matched byte for byte.
  */
-export const ASSETS = process.env.NODE_ENV === "production" ? "https://assets.reze.one/demo/mikapo" : ""
+export const ASSETS = process.env.NODE_ENV === "production" ? "" : ""
